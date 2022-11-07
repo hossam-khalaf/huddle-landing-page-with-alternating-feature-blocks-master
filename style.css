@@ -114,7 +114,7 @@ nav {
 	margin-bottom: 2.2rem;
 }
 
-.hero__btn {
+.cta__btn {
 	text-decoration: none;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -181,6 +181,7 @@ nav {
 @media (min-width: 48em) {
 	.features {
 		padding: 7rem 5rem;
+		padding-bottom: 12rem;
 	}
 	.features__card {
 		flex-direction: row;
@@ -191,4 +192,39 @@ nav {
 	.features__card:nth-child(3) {
 		flex-direction: row-reverse;
 	}
+}
+
+/* footer */
+
+footer {
+	padding-top: 10rem;
+	background-color: var(--very-dark-cyan);
+	position: relative;
+}
+
+footer .cta {
+	background-color: #fff;
+	text-align: center;
+	padding: 2rem 1rem;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+
+	position: absolute;
+	top: -120px;
+	left: 0;
+	right: 0;
+}
+
+@media (min-width: 48em) {
+	.cta {
+		width: 500px;
+		padding: 3rem 2rem;
+	}
+}
+
+.cta h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: var(--very-dark-cyan);
+	margin-bottom: 2rem;
 }
